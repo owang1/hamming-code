@@ -227,15 +227,6 @@ int main(int argc, char* argv[]){
 		}
 	} 
 	cout << "Uncorrectable Error" << endl;
-    filreturn 1;
+    return 1;
  }
-       
-       
-       
-       
-       
-       
-       
-       
-       
        
