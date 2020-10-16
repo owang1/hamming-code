@@ -28,4 +28,4 @@ example:
 
 yields the output
 #### 01011
-#### a
+#### ab
