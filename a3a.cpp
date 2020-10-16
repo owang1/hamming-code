@@ -107,7 +107,7 @@ int main(int argc, char** argv){
     }			
   }
 		
-  // Make a bits vector with binary values of 1 to h 	
+  // Make a bits vector with binary values of 1 to H 	
   for(int it = 1; it <= H.length(); it++){
     B.push_back(char_to_str(it));
   }	
