@@ -90,9 +90,6 @@ int main(int argc, char** argv){
 	
   input = argv[1];
   
-  //input = "taow sends $1000000 to oswang hesitantly";	
-  //cout << input;	
-
   // Convert input to a bitstring
   for(int i = 0; i < input.length(); i++){
   H += char_to_str(input[i]);
@@ -123,7 +120,7 @@ int main(int argc, char** argv){
       int M_size = 0;
       count++;      
       for(int n = m; n < H.length(); n++){
-      // check if least ith significant bit is 1
+      // Check if least ith significant bit is 1
         if(least_sig(B.at(n), count)){
           if(n != m){		
             M.push_back(B[n]);
